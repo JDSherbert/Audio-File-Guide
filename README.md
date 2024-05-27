@@ -30,19 +30,19 @@ Let's dive into the details of each format, examining how they compress audio da
 ## ⚡Quick Guide
 | Type  | Size | Quality | Compression | Common Uses                                   | Sample Rates (kHz)       | Bit Rates (kbps)          |
 |-------|------|---------|-------------|-----------------------------------------------|--------------------------|---------------------------|
-| .wav  | 10   | 10      | Lossless    | Professional recording, high-definition media | 8 - 192                  | 1411 (CD quality), up to 4608 |
-| .mp3  | 4    | 7       | Lossy       | Web, mobile applications                      | 8 - 48                   | 8 - 320                   |
-| .ogg  | 3    | 7       | Lossy       | Web, mobile, game sound banks                 | 8 - 48                   | 16 - 500                  |
-| .flac | 6    | 9       | Lossless    | Audio archiving, high-quality listening       | 1 - 192                  | Up to 9216                |
-| .aiff | 10   | 10      | Lossless    | Professional recording, Mac environments      | 8 - 192                  | 1411 (CD quality), up to 4608 |
-| .aac  | 4    | 8       | Lossy       | Web, mobile applications, iTunes              | 8 - 96                   | 8 - 512                   |
-| .wma  | 5    | 8 / 10  | Both        | Web, mobile applications, Windows             | 8 - 48                   | 48 - 192 (lossy), up to 1536 (lossless) |
-| .alac | 6    | 9       | Lossless    | Audio archiving, Apple devices                | 1 - 384                  | Up to 9216                |
-| .dsd  | 10   | 10      | Lossless    | Super Audio CDs, professional audio           | 2822.4 (DSD64), 5644.8 (DSD128), 11289.6 (DSD256) | 5645, 11289, 22579       |
-| .mp2  | 3    | 6       | Lossy       | Broadcasting                                  | 16 - 48                  | 32 - 384                  |
-| .opus | 2    | 8       | Lossy       | Streaming, voice over IP                      | 8 - 48                   | 6 - 510                   |
-| .m4a  | 5    | 8 / 10  | Both        | iTunes, Apple Music, mobile applications      | 8 - 96                   | 8 - 512 (lossy), up to 1411 (lossless)    |
-| .midi | 1    | 5       | None        | Music production, electronic instruments      | N/A                      | N/A                       |
+| .wav  | 🔟  | 🔟      | Lossless    | Professional recording, high-definition media | 8 - 192                  | 1411 (CD quality), up to 4608 |
+| .mp3  | 4️⃣  | 7️⃣      | Lossy       | Web, mobile applications                      | 8 - 48                   | 8 - 320                   |
+| .ogg  | 3️⃣  | 7️⃣      | Lossy       | Web, mobile, game sound banks                 | 8 - 48                   | 16 - 500                  |
+| .flac | 6️⃣  | 9️⃣      | Lossless    | Audio archiving, high-quality listening       | 1 - 192                  | Up to 9216                |
+| .aiff | 🔟  | 🔟      | Lossless    | Professional recording, Mac environments      | 8 - 192                  | 1411 (CD quality), up to 4608 |
+| .aac  | 4️⃣  | 8️⃣      | Lossy       | Web, mobile applications, iTunes              | 8 - 96                   | 8 - 512                   |
+| .wma  | 5️⃣  | 8️⃣/🔟  | Both        | Web, mobile applications, Windows             | 8 - 48                   | 48 - 192 (lossy), up to 1536 (lossless) |
+| .alac | 6️⃣  | 9️⃣      | Lossless    | Audio archiving, Apple devices                | 1 - 384                  | Up to 9216                |
+| .dsd  | 🔟  | 🔟      | Lossless    | Super Audio CDs, professional audio           | 2822.4 (DSD64), 5644.8 (DSD128), 11289.6 (DSD256) | 5645, 11289, 22579       |
+| .mp2  | 3️⃣  | 6️⃣      | Lossy       | Broadcasting                                  | 16 - 48                  | 32 - 384                  |
+| .opus | 2️⃣  | 8️⃣      | Lossy       | Streaming, voice over IP                      | 8 - 48                   | 6 - 510                   |
+| .m4a  | 5️⃣  | 8️⃣/🔟  | Both        | iTunes, Apple Music, mobile applications      | 8 - 96                   | 8 - 512 (lossy), up to 1411 (lossless)    |
+| .midi | 1️⃣  | 5️⃣      | None        | Music production, electronic instruments      | N/A                      | N/A                       |
 
 ## 📂 File Types
 
