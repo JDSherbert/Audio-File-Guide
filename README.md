@@ -30,6 +30,15 @@ Let's dive into the details of each format, examining how they compress audio da
 ## File Types
 Each audio file type has a container format or “Wrapper”, which allow more data to be embedded into a single file, usually along with metadata for identifying and further detailing those files. This often includes Metadata, such as tags, sample rate, BPM, length, midi information, loop markers, and strings such as the name of the creator and the size of the file. Sometimes, there can be even more data, such as images, and links in this metadata.
 
+## Quick Guide
+| File Type | Size       | Quality          | Compression Type | Common Uses                            | Notes                                           |
+|-----------|------------|------------------|------------------|----------------------------------------|-------------------------------------------------|
+| .wav      | Large      | High             | Lossless         | Professional recording, high-definition media | Compatible with most digital software, uncompressed |
+| .mp3      | Small      | Good             | Lossy            | Web, mobile applications                | Widely compatible, smaller size but lossy       |
+| .ogg      | Very Small | Good             | Lossy            | Web, mobile, game sound banks           | Less common now, but efficient in size          |
+| .flac     | Medium     | Very High        | Lossless         | Audio archiving, high-quality listening | Open license, not as widely used outside audio industry |
+
+
 ### .wav
 Large, uncompressed, and capable of higher comparable quality. It is made by sampling the audio into a waveform – as such, it is compatible with most digital software and is widely used for high definition media. It’s a lossless codec, which means that it is stored via an algorithm that allows the original audio data to be perfectly reconstructed from the compressed data.
 
