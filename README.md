@@ -55,7 +55,7 @@ Comment: Additional notes or comments about the track.
 User-Defined Tags: Custom tags defined by the user.
 
 - #### Limited or No Metadata Support
-
+As described - the file does not support metadata for either security, size, or legacy restrictions.
 
 ## Quick Guide
 | Type  | Size | Quality | Compression | Common Uses                                   | Sample Rates (kHz)       | Bit Rates (kbps)          |
