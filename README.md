@@ -31,21 +31,21 @@ Let's dive into the details of each format, examining how they compress audio da
 Each audio file type has a container format or “Wrapper”, which allow more data to be embedded into a single file, usually along with metadata for identifying and further detailing those files. This often includes Metadata, such as tags, sample rate, BPM, length, midi information, loop markers, and strings such as the name of the creator and the size of the file. Sometimes, there can be even more data, such as images, and links in this metadata.
 
 ## Quick Guide
-| Type  | Size | Quality | Compression | Common Uses                                   | Metadata | Sample Rates (kHz)       | Bit Rates (kbps)          |
-|-------|------|---------|-------------|-----------------------------------------------|----------|--------------------------|---------------------------|
-| .wav  | 10   | 10      | Lossless    | Professional recording, high-definition media | Yes      | 8 - 192                  | 1411 (CD quality), up to 4608 |
-| .mp3  | 4    | 7       | Lossy       | Web, mobile applications                      | Yes      | 8 - 48                   | 8 - 320                   |
-| .ogg  | 3    | 7       | Lossy       | Web, mobile, game sound banks                 | No       | 8 - 48                   | 16 - 500                  |
-| .flac | 6    | 9       | Lossless    | Audio archiving, high-quality listening       | Yes      | 1 - 192                  | Up to 9216                |
-| .aiff | 10   | 10      | Lossless    | Professional recording, Mac environments      | Yes      | 8 - 192                  | 1411 (CD quality), up to 4608 |
-| .aac  | 4    | 8       | Lossy       | Web, mobile applications, iTunes              | Yes      | 8 - 96                   | 8 - 512                   |
-| .wma  | 5    | 8 / 10  | Both        | Web, mobile applications, Windows             | Yes      | 8 - 48                   | 48 - 192 (lossy), up to 1536 (lossless) |
-| .alac | 6    | 9       | Lossless    | Audio archiving, Apple devices                | Yes      | 1 - 384                  | Up to 9216                |
-| .dsd  | 10   | 10      | Lossless    | Super Audio CDs, professional audio           | Yes      | 2822.4 (DSD64), 5644.8 (DSD128), 11289.6 (DSD256) | 5645, 11289, 22579       |
-| .mp2  | 3    | 6       | Lossy       | Broadcasting                                  | Yes      | 16 - 48                  | 32 - 384                  |
-| .opus | 2    | 8       | Lossy       | Streaming, voice over IP                      | Yes      | 8 - 48                   | 6 - 510                   |
-| .m4a  | 5    | 8 / 10  | Both        | iTunes, Apple Music, mobile applications      | Yes      | 8 - 96                   | 8 - 512 (lossy), up to 1411 (lossless)    |
-| .midi | 1    | 5       | None        | Music production, electronic instruments      | Yes      | N/A                      | N/A                       |
+| Type  | Size | Quality | Compression | Common Uses                                   | Sample Rates (kHz)       | Bit Rates (kbps)          |
+|-------|------|---------|-------------|-----------------------------------------------|--------------------------|---------------------------|
+| .wav  | 10   | 10      | Lossless    | Professional recording, high-definition media | 8 - 192                  | 1411 (CD quality), up to 4608 |
+| .mp3  | 4    | 7       | Lossy       | Web, mobile applications                      | 8 - 48                   | 8 - 320                   |
+| .ogg  | 3    | 7       | Lossy       | Web, mobile, game sound banks                 | 8 - 48                   | 16 - 500                  |
+| .flac | 6    | 9       | Lossless    | Audio archiving, high-quality listening       | 1 - 192                  | Up to 9216                |
+| .aiff | 10   | 10      | Lossless    | Professional recording, Mac environments      | 8 - 192                  | 1411 (CD quality), up to 4608 |
+| .aac  | 4    | 8       | Lossy       | Web, mobile applications, iTunes              | 8 - 96                   | 8 - 512                   |
+| .wma  | 5    | 8 / 10  | Both        | Web, mobile applications, Windows             | 8 - 48                   | 48 - 192 (lossy), up to 1536 (lossless) |
+| .alac | 6    | 9       | Lossless    | Audio archiving, Apple devices                | 1 - 384                  | Up to 9216                |
+| .dsd  | 10   | 10      | Lossless    | Super Audio CDs, professional audio           | 2822.4 (DSD64), 5644.8 (DSD128), 11289.6 (DSD256) | 5645, 11289, 22579       |
+| .mp2  | 3    | 6       | Lossy       | Broadcasting                                  | 16 - 48                  | 32 - 384                  |
+| .opus | 2    | 8       | Lossy       | Streaming, voice over IP                      | 8 - 48                   | 6 - 510                   |
+| .m4a  | 5    | 8 / 10  | Both        | iTunes, Apple Music, mobile applications      | 8 - 96                   | 8 - 512 (lossy), up to 1411 (lossless)    |
+| .midi | 1    | 5       | None        | Music production, electronic instruments      | N/A                      | N/A                       |
 
 ### .wav
 Large, uncompressed, and capable of higher comparable quality. It is made by sampling the audio into a waveform – as such, it is compatible with most digital software and is widely used for high-definition media. It’s a lossless codec, which means that it is stored via an algorithm that allows the original audio data to be perfectly reconstructed from the compressed data.
