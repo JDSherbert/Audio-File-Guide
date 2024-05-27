@@ -28,10 +28,21 @@ Let's dive into the details of each format, examining how they compress audio da
 -----------------------------------------------------------------------
 
 ## File Types
+Each audio file type has a container format or “Wrapper”, which allow more data to be embedded into a single file, usually along with metadata for identifying and further detailing those files. This often includes Metadata, such as tags, sample rate, BPM, length, midi information, loop markers, and strings such as the name of the creator and the size of the file. Sometimes, there can be even more data, such as images, and links in this metadata.
 
------------------------------------------------------------------------
+### .wav
+Large, uncompressed, and capable of higher comparable quality. It is made by sampling the audio into a waveform – as such, it is compatible with most digital software and is widely used for high definition media. It’s a lossless codec, which means that it is stored via an algorithm that allows the original audio data to be perfectly reconstructed from the compressed data.
 
-### .wav File
+### .mp3 
+This file type is smaller than .wav and is capable of good comparable quality. It is made by sampling the audio into layers – it is compatible with most digital software and is more appropriate for web and mobile applications. It is very lossy, however.
+
+### .ogg
+This file type is even smaller comparatively than a .mp3 and the quality difference is negligible. It is made by sampling the audio into layers, but also ignores “silence” in the sample, greatly reducing the size and processing cost – although it is lossy, and is becoming slightly obsolete/less compatible for most media, it is compatible with most digital software and is widely used in web and mobile, as well as for generating sound banks for large scale AAA game projects.
+
+### .flac 
+This file type is smaller than .wav and is capable of high comparable quality. It is made by sampling the audio into layers – it’s a lossless codec with an open licence, compatible with most digital software but is not as widely used outside of the audio industry.
+
+
 
 
 -----------------------------------------------------------------------
