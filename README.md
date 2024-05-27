@@ -1,4 +1,4 @@
-![image](https://github.com/JDSherbert/Audio-File-Guide/assets/43964243/eebd8ba1-df86-438f-99a5-e901204bcf9a)
+![image](https://github.com/JDSherbert/Audio-File-Guide/assets/43964243/5e8b9ed7-d3ef-4c3a-922e-419ba0e60bce)
 
 # Audio File Guide
 
