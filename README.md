@@ -27,7 +27,7 @@ Let's dive into the details of each format, examining how they compress audio da
 
 -----------------------------------------------------------------------
 
-## Quick Guide
+## ⚡Quick Guide
 | Type  | Size | Quality | Compression | Common Uses                                   | Sample Rates (kHz)       | Bit Rates (kbps)          |
 |-------|------|---------|-------------|-----------------------------------------------|--------------------------|---------------------------|
 | .wav  | 10   | 10      | Lossless    | Professional recording, high-definition media | 8 - 192                  | 1411 (CD quality), up to 4608 |
@@ -44,7 +44,7 @@ Let's dive into the details of each format, examining how they compress audio da
 | .m4a  | 5    | 8 / 10  | Both        | iTunes, Apple Music, mobile applications      | 8 - 96                   | 8 - 512 (lossy), up to 1411 (lossless)    |
 | .midi | 1    | 5       | None        | Music production, electronic instruments      | N/A                      | N/A                       |
 
-## File Types
+## 📂 File Types
 
 ### .wav
 Large, uncompressed, and capable of higher comparable quality. It is made by sampling the audio into a waveform – as such, it is compatible with most digital software and is widely used for high-definition media. It’s a lossless codec, which means that it is stored via an algorithm that allows the original audio data to be perfectly reconstructed from the compressed data.
@@ -90,7 +90,7 @@ MIDI (Musical Instrument Digital Interface) files are unique in that they do not
 
 -----------------------------------------------------------------------
 
-## Metadata
+## 📝 Metadata
 Each audio file type has a container format or “Wrapper”, which allow more data to be embedded into a single file, usually along with metadata for identifying and further detailing those files. This often includes Metadata, such as tags, sample rate, BPM, length, midi information, loop markers, and strings such as the name of the creator and the size of the file. Sometimes, there can be even more data, such as images, and links in this metadata.
 There are several types of metadata:
 
@@ -105,7 +105,7 @@ Genre: The genre of the track (e.g., rock, classical, jazz).
 Track Number: The position of the track within an album.
 Duration: The length of the track.
 
-- #### Extensive Metadata
+- #### 🆔 Extensive Metadata
 Extensive metadata formats include all the basic fields plus additional information. File types supported are .mp3 (with ID3 tags), .flac, .m4a, and .ogg, allowing for a richer and more informative tagging system.
 These often include:
 Album Artwork: Images associated with the album or track.
