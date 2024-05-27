@@ -29,6 +29,33 @@ Let's dive into the details of each format, examining how they compress audio da
 
 ## File Types
 Each audio file type has a container format or “Wrapper”, which allow more data to be embedded into a single file, usually along with metadata for identifying and further detailing those files. This often includes Metadata, such as tags, sample rate, BPM, length, midi information, loop markers, and strings such as the name of the creator and the size of the file. Sometimes, there can be even more data, such as images, and links in this metadata.
+There are several types of metadata:
+
+- #### Basic Metadata
+Includes fundamental details about the audio content but may not support the full range of metadata fields available in more modern or comprehensive formats.
+Basic metadata often includes:
+Title: The name of the track.
+Artist: The name of the artist or performer.
+Album: The name of the album the track belongs to.
+Year: The year the track was released or recorded.
+Genre: The genre of the track (e.g., rock, classical, jazz).
+Track Number: The position of the track within an album.
+Duration: The length of the track.
+
+- #### Extensive Metadata
+Extensive metadata formats include all the basic fields plus additional information. File types supported are .mp3 (with ID3 tags), .flac, .m4a, and .ogg, allowing for a richer and more informative tagging system.
+These often include:
+Album Artwork: Images associated with the album or track.
+Lyrics: The words to the song.
+Composer: Information about the composer of the track.
+Conductor: Information about the conductor (for classical music).
+Bit Rate: Information about the bit rate of the file.
+Sample Rate: Information about the sample rate of the file.
+Comment: Additional notes or comments about the track.
+User-Defined Tags: Custom tags defined by the user.
+
+- #### Limited or No Metadata Support
+
 
 ## Quick Guide
 | Type  | Size | Quality | Compression | Common Uses                                   | Sample Rates (kHz)       | Bit Rates (kbps)          |
@@ -49,9 +76,11 @@ Each audio file type has a container format or “Wrapper”, which allow more d
 
 ### .wav
 Large, uncompressed, and capable of higher comparable quality. It is made by sampling the audio into a waveform – as such, it is compatible with most digital software and is widely used for high-definition media. It’s a lossless codec, which means that it is stored via an algorithm that allows the original audio data to be perfectly reconstructed from the compressed data.
+- Metadata Support: Yes, supports INFO chunks but limited compared to more modern formats.
 
 ### .mp3
 This file type is smaller than .wav and is capable of good comparable quality. It is made by sampling the audio into layers – it is compatible with most digital software and is more appropriate for web and mobile applications. It is very lossy, however.
+- Yes, supports ID3 tags.
 
 ### .ogg
 This file type is even smaller comparatively than a .mp3 and the quality difference is negligible. It is made by sampling the audio into layers but also ignores “silence” in the sample, greatly reducing the size and processing cost. Although it is lossy and becoming slightly obsolete/less compatible for most media, it is compatible with most digital software and is widely used in web and mobile, as well as for generating sound banks for large-scale AAA game projects.
