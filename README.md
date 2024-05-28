@@ -126,15 +126,20 @@ As described - the file does not support metadata for either security, size, or 
 -----------------------------------------------------------------------
 
 ## 🛻 Software Audio File Requirements
-Certain game engines support certain audio file types.
+Certain software only supports certain audio file types.
 Here are the files I'd recommend using with each software.
 
-| Engine | Supported Files |
-|--------|-----------------|
+| Software | Supported Files |
+|----------|-----------------|
 | <a href = "https://docs.unrealengine.com/5.1/en-US/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/unrealengine/white"> </a> | .wav 16-bit PCM @ 44100Hz |
 | <a href = "https://docs.unity.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/unity/white"> </a> | .wav, .ogg, .mp3 |
 | <a href = "https://www.godot.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/godotengine"> </a> | .wav, .ogg, .mp3 |
 | <a href = "hhttps://www.audiokinetic.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/wwise/white"> </a> | .wav 24-bit PCM @ 48000Hz      |
-| RPG Maker | .ogg, .m4a (Mac/Safari)    |
+| RPG Maker         | .ogg, .m4a (Mac/Safari)    |
+| Mozilla           | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
+| Chrome            | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
+| Edge              | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
+| Safari            | .wav, .mp3, .aiff, .alac, .aac, .m4a  |
+| Internet Explorer | .wav, .mp3, .wma (You'll need to use plugins for additional types)    |
 
 -----------------------------------------------------------------------
