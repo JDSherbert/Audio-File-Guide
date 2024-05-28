@@ -140,7 +140,7 @@ Waveform Audio File Format (WAV), developed by Microsoft and IBM, is one of the 
 #### Applications
 - Professional Recording and Editing: WAV is the standard format for professional audio recording and editing due to its uncompressed nature and high audio fidelity.
 - Archival and Preservation: Used for audio archiving and preservation because it maintains the original audio quality without any loss due to compression.
-- CD Audio: WAV files are used for creating audio CDs, as the format matches the Red Book standard for CD audio.
+- Physical Media: WAV files are used for creating audio CDs, as the format matches the Red Book standard for CD audio.
 - Sound Design and Sampling: Commonly used in sound design and sampling, where high-quality, lossless audio is essential.
 #### Advantages
 - Highest Audio Quality: WAV files provide the highest possible audio quality since they are typically uncompressed.
