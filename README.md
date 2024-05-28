@@ -4,6 +4,7 @@
 
 
 <!-- Header Start -->
+
 <img align="right" alt="Stars Badge" src="https://img.shields.io/github/stars/jdsherbert/Audio-File-Guide?label=%E2%AD%90"/>
 <img align="right" alt="Forks Badge" src="https://img.shields.io/github/forks/jdsherbert/Audio-File-Guide?label=%F0%9F%8D%B4"/>
 <img align="right" alt="Watchers Badge" src="https://img.shields.io/github/watchers/jdsherbert/Audio-File-Guide?label=%F0%9F%91%81%EF%B8%8F"/>
