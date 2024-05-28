@@ -135,5 +135,6 @@ Here are the files I'd recommend using with each software.
 | <a href = "https://docs.unity.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/unity/white"> </a> | .wav, .ogg, .mp3 |
 | <a href = "https://www.godot.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/godotengine"> </a> | .wav, .ogg, .mp3 |
 | <a href = "hhttps://www.audiokinetic.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/wwise/white"> </a> | .wav 24-bit PCM @ 48000Hz      |
+| RPG Maker | .ogg, .m4a (Mac/Safari)    |
 
 -----------------------------------------------------------------------
