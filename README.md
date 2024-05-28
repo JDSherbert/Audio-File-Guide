@@ -29,7 +29,7 @@ Let's dive into the details of each format, examining how they compress audio da
 
 ## ⚡Quick Guide
 | Type  | Size | Quality | Compression | Web | Mobile | Sample Rates (kHz)                                | Bit Rates (kbps)                         | Comments                                         |
-|-------|------|---------|-------------|--------------|---------------------------------------------------|------------------------------------------|--------------------------------------------------|
+|-------|------|---------|-------------|-----|--------|---------------------------------------------------|------------------------------------------|--------------------------------------------------|
 | .wav  | 🔟  | 🔟      | Lossless    | ✅ | ✅     | 8 - 192                                           | 1411 (CD quality), up to 4608            | Professional recording, high-definition media    |
 | .mp3  | 4️⃣  | 7️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 8 - 320                                  |                                                  |
 | .ogg  | 3️⃣  | 7️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 16 - 500                                 | Also used for game sound banks (Wwise, FMOD etc) |         |
