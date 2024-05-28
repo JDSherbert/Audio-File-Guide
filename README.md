@@ -22,7 +22,6 @@ As an audio engineer, understanding the various audio file formats is crucial to
 
 Let's dive into the details of each format, examining how they compress audio data, the quality they offer, and their typical use cases in the audio industry.
 
-
 -----------------------------------------------------------------------
 
 ## ⚡Quick Guide
@@ -56,19 +55,19 @@ Advanced Audio Codec (AAC) is a digital audio coding standard that was designed 
 - Channels: Supports up to 48 full-bandwidth audio channels
 - Sample Rates: Supports 8 kHz to 96 kHz.
 - Bit Rates: Supports 8 kbps to 320 kbps or higher, depending on the profile and application.
-#### Profiles: 
+#### Profiles
 AAC has several profiles tailored to different applications.
 - AAC-LC (Low Complexity): The most commonly used profile, providing a good balance between complexity and compression efficiency.
 - HE-AAC (High-Efficiency AAC): Optimized for low bit rates, often used in streaming applications.
 - HE-AACv2: An extension of HE-AAC, including Parametric Stereo (PS) for even better performance at very low bit rates.
 - AAC-LD (Low Delay): Designed for real-time communication applications where low latency is crucial.
 - AAC-ELD (Enhanced Low Delay): Further improves on AAC-LD for high-quality, low-latency audio streaming.
-#### Applications:
+#### Applications
 - Music Streaming: Widely used in music streaming services such as Apple Music, YouTube, and Spotify due to its balance of sound quality and file size.
 - Mobile Devices: Apple's use of AAC in iTunes has popularized the format for mobile, specifically iPhone.
 - Broadcasting: Digital radio and television broadcasts often use AAC for audio due to its efficiency and high quality. The format is part of the DVB and ATSC standards.
 - VoIP and Conferencing: AAC-ELD and AAC-LD profiles are used in applications where low latency is critical, such as voice over IP (VoIP) and video conferencing.
-#### Advantages:
+#### Advantages
 - High Audio Quality at Low Bit Rates: AAC can deliver excellent audio quality even at lower bit rates, making it ideal for streaming and mobile applications where bandwidth and storage are concerns.
 - Widespread Compatibility: With support across a broad range of devices and platforms, AAC is a versatile choice for digital audio.
 - Advanced Features: Support for multi-channel audio and high-frequency ranges makes AAC suitable for a variety of applications beyond simple music playback.
