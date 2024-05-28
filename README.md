@@ -46,33 +46,34 @@ Let's dive into the details of each format, examining how they compress audio da
 
 ### .aac
 Advanced Audio Codec (AAC) is a digital audio coding standard that was designed to be the successor to the MP3 format. Developed by a consortium of companies including AT&T Bell Laboratories, Fraunhofer IIS, Dolby Laboratories, Sony Corporation, and Nokia, AAC is now part of the MPEG-2 and MPEG-4 standards. AAC offers better sound quality than MP3 at similar bit rates. It's also the default format for iTunes and Apple Music. AAC files support metadata and are widely used in web and mobile applications. 
-- #### Key Features
-  - Superior Sound Quality: Compared to MP3 at similar bit rates, AAC typically offers better sound quality. This improvement is due to more advanced compression algorithms and greater efficiency in coding techniques.
-  - Compression Efficiency: AAC achieves higher compression rates while maintaining audio quality, making it ideal for streaming and storage. This efficiency is particularly beneficial for mobile and online applications where bandwidth and storage space are limited.
-  - Broad Frequency Range: AAC supports a wider frequency range than MP3, from 8 Hz to 96 kHz, which allows it to handle both low and high-frequency sounds more effectively.
-- #### Technical Specifications
-  - Metadata: Supports Extensive Metadata ID tags.
-  - Channels: Supports up to 48 full-bandwidth audio channels
-  - Sample Rates: Supports 8 kHz to 96 kHz.
-  - Bit Rates: Supports 8 kbps to 320 kbps or higher, depending on the profile and application.
-- #### Profiles: AAC has several profiles tailored to different applications:
-  - AAC-LC (Low Complexity): The most commonly used profile, providing a good balance between complexity and compression efficiency.
-  - HE-AAC (High-Efficiency AAC): Optimized for low bit rates, often used in streaming applications.
-  - HE-AACv2: An extension of HE-AAC, including Parametric Stereo (PS) for even better performance at very low bit rates.
-  - AAC-LD (Low Delay): Designed for real-time communication applications where low latency is crucial.
-  - AAC-ELD (Enhanced Low Delay): Further improves on AAC-LD for high-quality, low-latency audio streaming.
-- #### Applications:
-  - Music Streaming: Widely used in music streaming services such as Apple Music, YouTube, and Spotify due to its balance of sound quality and file size.
-  - Mobile Devices: Apple's use of AAC in iTunes has popularized the format for mobile, specifically iPhone.
-  - Broadcasting: Digital radio and television broadcasts often use AAC for audio due to its efficiency and high quality. The format is part of the DVB and ATSC standards.
-  - VoIP and Conferencing: AAC-ELD and AAC-LD profiles are used in applications where low latency is critical, such as voice over IP (VoIP) and video conferencing.
-- #### Advantages:
-  - High Audio Quality at Low Bit Rates: AAC can deliver excellent audio quality even at lower bit rates, making it ideal for streaming and mobile applications where bandwidth and storage are concerns.
-  - Widespread Compatibility: With support across a broad range of devices and platforms, AAC is a versatile choice for digital audio.
-  - Advanced Features: Support for multi-channel audio and high-frequency ranges makes AAC suitable for a variety of applications beyond simple music playback.
-- #### Disadvantages
-  - Licensing Fees: Unlike some open-source codecs, AAC is patented, and using it in commercial products may require licensing fees.
-  - Compatibility Issues with Older Devices: Some older hardware and software may not fully support AAC, particularly more advanced profiles like HE-AAC and HE-AACv2.
+
+#### Key Features
+- Superior Sound Quality: Compared to MP3 at similar bit rates, AAC typically offers better sound quality. This improvement is due to more advanced compression algorithms and greater efficiency in coding techniques.
+- Compression Efficiency: AAC achieves higher compression rates while maintaining audio quality, making it ideal for streaming and storage. This efficiency is particularly beneficial for mobile and online applications where bandwidth and storage space are limited.
+- Broad Frequency Range: AAC supports a wider frequency range than MP3, from 8 Hz to 96 kHz, which allows it to handle both low and high-frequency sounds more effectively.
+#### Technical Specifications
+- Metadata: Supports Extensive Metadata ID tags.
+- Channels: Supports up to 48 full-bandwidth audio channels
+- Sample Rates: Supports 8 kHz to 96 kHz.
+- Bit Rates: Supports 8 kbps to 320 kbps or higher, depending on the profile and application.
+#### Profiles: AAC has several profiles tailored to different applications:
+- AAC-LC (Low Complexity): The most commonly used profile, providing a good balance between complexity and compression efficiency.
+- HE-AAC (High-Efficiency AAC): Optimized for low bit rates, often used in streaming applications.
+- HE-AACv2: An extension of HE-AAC, including Parametric Stereo (PS) for even better performance at very low bit rates.
+- AAC-LD (Low Delay): Designed for real-time communication applications where low latency is crucial.
+- AAC-ELD (Enhanced Low Delay): Further improves on AAC-LD for high-quality, low-latency audio streaming.
+#### Applications:
+- Music Streaming: Widely used in music streaming services such as Apple Music, YouTube, and Spotify due to its balance of sound quality and file size.
+- Mobile Devices: Apple's use of AAC in iTunes has popularized the format for mobile, specifically iPhone.
+- Broadcasting: Digital radio and television broadcasts often use AAC for audio due to its efficiency and high quality. The format is part of the DVB and ATSC standards.
+- VoIP and Conferencing: AAC-ELD and AAC-LD profiles are used in applications where low latency is critical, such as voice over IP (VoIP) and video conferencing.
+#### Advantages:
+- High Audio Quality at Low Bit Rates: AAC can deliver excellent audio quality even at lower bit rates, making it ideal for streaming and mobile applications where bandwidth and storage are concerns.
+- Widespread Compatibility: With support across a broad range of devices and platforms, AAC is a versatile choice for digital audio.
+- Advanced Features: Support for multi-channel audio and high-frequency ranges makes AAC suitable for a variety of applications beyond simple music playback.
+#### Disadvantages
+- Licensing Fees: Unlike some open-source codecs, AAC is patented, and using it in commercial products may require licensing fees.
+- Compatibility Issues with Older Devices: Some older hardware and software may not fully support AAC, particularly more advanced profiles like HE-AAC and HE-AACv2.
 
 ### .aiff
 Similar to .wav in size and quality, AIFF is a lossless format developed by Apple. It is commonly used in Mac environments for professional audio applications. It supports a wide range of sample rates and bit rates and includes metadata support.
