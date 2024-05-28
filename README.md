@@ -127,9 +127,29 @@ This file type is even smaller comparatively than a .mp3 and the quality differe
 Opus is a highly versatile and efficient lossy audio codec designed for streaming and real-time applications such as voice over IP. It offers high audio quality at low bit rates, making it ideal for bandwidth-sensitive uses. Opus supports a wide range of sample rates and bit rates, providing good quality even at lower file sizes. It also includes extensive metadata support, making it a robust choice for various audio applications.
 
 ### .wav
-Large, uncompressed, and capable of higher comparable quality. It is made by sampling the audio into a waveform – as such, it is compatible with most digital software and is widely used for high-definition media. It’s a lossless codec, which means that it is stored via an algorithm that allows the original audio data to be perfectly reconstructed from the compressed data.
-- Metadata Support: Yes, supports INFO chunks but limited compared to more modern formats.
-- Supported Platforms: All
+Waveform Audio File Format (WAV), developed by Microsoft and IBM, is one of the oldest and most widely used audio file formats. Introduced in 1991 as a part of the Resource Interchange File Format (RIFF), WAV files are used for storing uncompressed, high-quality audio data. Because WAV files are typically uncompressed, they offer superior audio quality but come with larger file sizes. They are commonly used in professional audio recording, editing, and archival.
+#### Key Features
+- Uncompressed Audio: WAV files usually store audio in an uncompressed format, which means they retain the full fidelity of the original recording.
+- High Quality: Due to the lack of compression, WAV files offer excellent audio quality, making them ideal for professional and archival purposes.
+- Flexibility: WAV files can contain compressed audio, but this is less common. They can also store various types of audio data, including multi-channel and high-resolution audio.
+#### Technical Specifications
+- Metadata: WAV files support basic metadata, typically in the form of RIFF tags, which can include information like track title, artist, album, and more.
+- Channels: Supports mono, stereo, and multi-channel audio.
+- Sample Rates: Commonly supports sample rates from 8 kHz to 192 kHz.
+- Bit Rates: Typically supports bit depths from 8-bit to 32-bit floating point, with 16-bit and 24-bit being the most common for professional audio.
+#### Applications
+- Professional Recording and Editing: WAV is the standard format for professional audio recording and editing due to its uncompressed nature and high audio fidelity.
+- Archival and Preservation: Used for audio archiving and preservation because it maintains the original audio quality without any loss due to compression.
+- CD Audio: WAV files are used for creating audio CDs, as the format matches the Red Book standard for CD audio.
+- Sound Design and Sampling: Commonly used in sound design and sampling, where high-quality, lossless audio is essential.
+#### Advantages
+- Highest Audio Quality: WAV files provide the highest possible audio quality since they are typically uncompressed.
+- Broad Compatibility: WAV is widely supported across various operating systems, digital audio workstations (DAWs), and audio playback devices.
+- Simple and Flexible: The format is straightforward, and its flexibility allows for a variety of audio data types and uses.
+#### Disadvantages
+- Large File Size: Due to the lack of compression, WAV files are significantly larger than compressed formats like MP3 or AAC, which can be an issue for storage and transmission.
+- Limited Metadata Support: While WAV files support basic metadata, they lack the extensive metadata capabilities of formats like MP3 or AAC.
+- Not Ideal for Streaming: The large file sizes make WAV less suitable for streaming applications where bandwidth efficiency is crucial.
 
 ### .wma
 Windows Media Audio, developed by Microsoft, comes in both lossy and lossless versions. It supports metadata and a wide range of sample and bit rates. While less popular today, it was widely used for streaming and downloading music.
