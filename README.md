@@ -46,6 +46,7 @@ Let's dive into the details of each format, examining how they compress audio da
 
 ### .aac
 Advanced Audio Codec (AAC) is a digital audio coding standard that was designed to be the successor to the MP3 format. Developed by a consortium of companies including AT&T Bell Laboratories, Fraunhofer IIS, Dolby Laboratories, Sony Corporation, and Nokia, AAC is now part of the MPEG-2 and MPEG-4 standards. AAC offers better sound quality than MP3 at similar bit rates. It's also the default format for iTunes and Apple Music. AAC files support metadata and are widely used in web and mobile applications. 
+- Metadata: Supports Extensive Metadata ID tags.
 - Channels: Supports up to 48 full-bandwidth audio channels
 - Sample Rates: Supports 8 kHz to 96 kHz.
 - Bit Rates: Supports 8 kbps to 320 kbps or higher, depending on the profile and application.
