@@ -50,11 +50,11 @@ Advanced Audio Codec (AAC) is a digital audio coding standard that was designed 
 - Sample Rates: Supports 8 kHz to 96 kHz.
 - Bit Rates: Supports 8 kbps to 320 kbps or higher, depending on the profile and application.
 - Profiles: AAC has several profiles tailored to different applications:
- - AAC-LC (Low Complexity): The most commonly used profile, providing a good balance between complexity and compression efficiency.
- - HE-AAC (High-Efficiency AAC): Optimized for low bit rates, often used in streaming applications.
- - HE-AACv2: An extension of HE-AAC, including Parametric Stereo (PS) for even better performance at very low bit rates.
- - AAC-LD (Low Delay): Designed for real-time communication applications where low latency is crucial.
- - AAC-ELD (Enhanced Low Delay): Further improves on AAC-LD for high-quality, low-latency audio streaming.
+  - AAC-LC (Low Complexity): The most commonly used profile, providing a good balance between complexity and compression efficiency.
+  - HE-AAC (High-Efficiency AAC): Optimized for low bit rates, often used in streaming applications.
+  - HE-AACv2: An extension of HE-AAC, including Parametric Stereo (PS) for even better performance at very low bit rates.
+  - AAC-LD (Low Delay): Designed for real-time communication applications where low latency is crucial.
+  - AAC-ELD (Enhanced Low Delay): Further improves on AAC-LD for high-quality, low-latency audio streaming.
 
 ### .aiff
 Similar to .wav in size and quality, AIFF is a lossless format developed by Apple. It is commonly used in Mac environments for professional audio applications. It supports a wide range of sample rates and bit rates and includes metadata support.
