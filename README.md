@@ -125,8 +125,8 @@ As described - the file does not support metadata for either security, size, or 
 
 -----------------------------------------------------------------------
 
-## 🛻 Software Audio File Requirements
-Certain software only supports certain audio file types.
+## 📻 Software Audio File Requirements
+Certain software only supports usage of certain audio file types.
 Here are the files I'd recommend using with each software.
 
 | Software | Supported Files |
@@ -135,11 +135,11 @@ Here are the files I'd recommend using with each software.
 | <a href = "https://docs.unity.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/unity/white"> </a>                          | .wav, .ogg, .mp3 |
 | <a href = "https://www.godot.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/godotengine"> </a>                           | .wav, .ogg, .mp3 |
 | <a href = "hhttps://www.audiokinetic.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/wwise/white"> </a>                | .wav 24-bit PCM @ 48000Hz      |
-| RPG Maker                                                                                                                                                          | .ogg, .m4a (Mac/Safari)    |
+| RPG Maker                                                                                                                                                          | .ogg, .m4a (for Mac/Safari)    |
 | <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/firefoxbrowser">                                                   | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
 | <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/googlechrome">                                                     | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
 | <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/microsoftedge">                                                    | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
 | <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/safari">                                                           | .wav, .mp3, .aiff, .alac, .aac, .m4a  |
-| <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/internetexplorer">                                                 | .wav, .mp3, .wma (se plugins for additional types)    |
+| <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/internetexplorer">                                                 | .wav, .mp3, .wma (use plugins for additional types)    |
 
 -----------------------------------------------------------------------
