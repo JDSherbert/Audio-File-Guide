@@ -46,33 +46,32 @@ Let's dive into the details of each format, examining how they compress audio da
 
 ### .aac
 Advanced Audio Codec (AAC) is a digital audio coding standard that was designed to be the successor to the MP3 format. Developed by a consortium of companies including AT&T Bell Laboratories, Fraunhofer IIS, Dolby Laboratories, Sony Corporation, and Nokia, AAC is now part of the MPEG-2 and MPEG-4 standards. AAC offers better sound quality than MP3 at similar bit rates. It's also the default format for iTunes and Apple Music. AAC files support metadata and are widely used in web and mobile applications. 
-
-#### Key Features
+#### 🔑 Key Features
 - Superior Sound Quality: Compared to MP3 at similar bit rates, AAC typically offers better sound quality. This improvement is due to more advanced compression algorithms and greater efficiency in coding techniques.
 - Compression Efficiency: AAC achieves higher compression rates while maintaining audio quality, making it ideal for streaming and storage. This efficiency is particularly beneficial for mobile and online applications where bandwidth and storage space are limited.
 - Broad Frequency Range: AAC supports a wider frequency range than MP3, from 8 Hz to 96 kHz, which allows it to handle both low and high-frequency sounds more effectively.
-#### Technical Specifications
+#### ⚙️ Technical Specifications
 - Metadata: Supports Extensive Metadata ID tags.
 - Channels: Supports up to 48 full-bandwidth audio channels
 - Sample Rates: Supports 8 kHz to 96 kHz.
 - Bit Rates: Supports 8 kbps to 320 kbps or higher, depending on the profile and application.
-#### Profiles
+#### 🔣 Profiles
 AAC has several profiles tailored to different applications.
 - AAC-LC (Low Complexity): The most commonly used profile, providing a good balance between complexity and compression efficiency.
 - HE-AAC (High-Efficiency AAC): Optimized for low bit rates, often used in streaming applications.
 - HE-AACv2: An extension of HE-AAC, including Parametric Stereo (PS) for even better performance at very low bit rates.
 - AAC-LD (Low Delay): Designed for real-time communication applications where low latency is crucial.
 - AAC-ELD (Enhanced Low Delay): Further improves on AAC-LD for high-quality, low-latency audio streaming.
-#### Applications
+#### 💠 Applications
 - Music Streaming: Widely used in music streaming services such as Apple Music, YouTube, and Spotify due to its balance of sound quality and file size.
 - Mobile Devices: Apple's use of AAC in iTunes has popularized the format for mobile, specifically iPhone.
 - Broadcasting: Digital radio and television broadcasts often use AAC for audio due to its efficiency and high quality. The format is part of the DVB and ATSC standards.
 - VoIP and Conferencing: AAC-ELD and AAC-LD profiles are used in applications where low latency is critical, such as voice over IP (VoIP) and video conferencing.
-#### Advantages
+#### 📈 Advantages
 - High Audio Quality at Low Bit Rates: AAC can deliver excellent audio quality even at lower bit rates, making it ideal for streaming and mobile applications where bandwidth and storage are concerns.
 - Widespread Compatibility: With support across a broad range of devices and platforms, AAC is a versatile choice for digital audio.
 - Advanced Features: Support for multi-channel audio and high-frequency ranges makes AAC suitable for a variety of applications beyond simple music playback.
-#### Disadvantages
+#### 📉 Disadvantages
 - Licensing Fees: Unlike some open-source codecs, AAC is patented, and using it in commercial products may require licensing fees.
 - Compatibility Issues with Older Devices: Some older hardware and software may not fully support AAC, particularly more advanced profiles like HE-AAC and HE-AACv2.
 
@@ -93,24 +92,24 @@ M4A (MPEG-4 Audio) is a file format used primarily by Apple devices and applicat
 
 ### .mp2
 MPEG-1 Audio Layer II (MP2) is a digital audio coding format that predates the more widely known MP3 format. Developed as part of the MPEG-1 standard by the Moving Picture Experts Group (MPEG), MP2 was initially designed for use in digital television broadcasting and digital radio. Although it has been largely superseded by more advanced codecs like MP3 and AAC in many applications, MP2 remains in use in specific broadcasting contexts due to its robustness and error resilience.
-- #### Key Features
+- #### 🔑 Key Features
   - Robustness: MP2 is known for its error resilience and robustness, making it suitable for professional broadcast environments where audio quality must be maintained over potentially unreliable transmission channels.
   - Simplicity: The encoding and decoding processes for MP2 are less complex than those for MP3 and AAC, which can lead to lower computational requirements.
   - Legacy Support: Due to its early adoption in broadcasting, MP2 maintains a significant presence in certain legacy systems and infrastructures.
-- #### Technical Specifications
+- #### ⚙️ Technical Specifications
   - Metadata: MP2 supports limited metadata compared to newer formats. It can include basic information such as track title and artist.
   - Channels: MP2 supports up to two channels (stereo).
   - Sample Rates: Commonly supports sample rates of 32 kHz, 44.1 kHz, and 48 kHz.
   - Bit Rates: Typically supports bit rates from 32 kbps to 384 kbps, with 192 kbps being common for stereo audio in broadcasting.
-- #### Applications
+- #### 💠 Applications
   - Digital Broadcasting: MP2 is widely used in Digital Audio Broadcasting (DAB) and Digital Video Broadcasting (DVB). Its robustness makes it ideal for use in environments where signal integrity cannot be guaranteed.
   - Professional Audio: Some professional audio equipment and workflows still use MP2, particularly in the broadcast industry.
   - Legacy Systems: MP2 remains relevant in systems and infrastructures that were established before the widespread adoption of MP3 and AAC.
-- #### Advantages
+- #### 📈 Advantages
   - Robustness and Error Resilience: MP2's ability to maintain audio quality over unreliable transmission channels makes it a reliable choice for broadcasting.
   - Low Computational Requirements: The simplicity of the MP2 codec means it requires less computational power to encode and decode compared to more modern codecs.
   - Established Use in Broadcasting: MP2's longstanding use in digital radio and television broadcasting ensures its continued relevance in these fields.
-- #### Disadvantages
+- #### 📉 Disadvantages
   - Limited Audio Quality at Lower Bit Rates: MP2 does not perform as well as newer codecs like MP3 or AAC at lower bit rates, leading to inferior audio quality in some cases.
   - Limited Metadata Support: MP2's metadata capabilities are limited compared to newer formats, which can affect file organization and user experience.
   - Obsolescence in Consumer Applications: With the advent of more efficient codecs like MP3 and AAC, MP2 has become less common in consumer applications and devices.
@@ -128,25 +127,25 @@ Opus is a highly versatile and efficient lossy audio codec designed for streamin
 
 ### .wav
 Waveform Audio File Format (WAV), developed by Microsoft and IBM, is one of the oldest and most widely used audio file formats. Introduced in 1991 as a part of the Resource Interchange File Format (RIFF), WAV files are used for storing uncompressed, high-quality audio data. Because WAV files are typically uncompressed, they offer superior audio quality but come with larger file sizes. They are commonly used in professional audio recording, editing, and archival.
-#### Key Features
+#### 🔑 Key Features
 - Uncompressed Audio: WAV files usually store audio in an uncompressed format, which means they retain the full fidelity of the original recording.
 - High Quality: Due to the lack of compression, WAV files offer excellent audio quality, making them ideal for professional and archival purposes.
 - Flexibility: WAV files can contain compressed audio, but this is less common. They can also store various types of audio data, including multi-channel and high-resolution audio.
-#### Technical Specifications
+#### ⚙️ Technical Specifications
 - Metadata: WAV files support basic metadata, typically in the form of RIFF tags, which can include information like track title, artist, album, and more.
 - Channels: Supports mono, stereo, and multi-channel audio.
 - Sample Rates: Commonly supports sample rates from 8 kHz to 192 kHz.
 - Bit Rates: Typically supports bit depths from 8-bit to 32-bit floating point, with 16-bit and 24-bit being the most common for professional audio.
-#### Applications
+#### 💠 Applications
 - Professional Recording and Editing: WAV is the standard format for professional audio recording and editing due to its uncompressed nature and high audio fidelity.
 - Archival and Preservation: Used for audio archiving and preservation because it maintains the original audio quality without any loss due to compression.
 - Physical Media: WAV files are used for creating audio CDs, as the format matches the Red Book standard for CD audio.
 - Sound Design and Sampling: Commonly used in sound design and sampling, where high-quality, lossless audio is essential.
-#### Advantages
+#### 📈 Advantages
 - Highest Audio Quality: WAV files provide the highest possible audio quality since they are typically uncompressed.
 - Broad Compatibility: WAV is widely supported across various operating systems, digital audio workstations (DAWs), and audio playback devices.
 - Simple and Flexible: The format is straightforward, and its flexibility allows for a variety of audio data types and uses.
-#### Disadvantages
+#### 📉 Disadvantages
 - Large File Size: Due to the lack of compression, WAV files are significantly larger than compressed formats like MP3 or AAC, which can be an issue for storage and transmission.
 - Limited Metadata Support: While WAV files support basic metadata, they lack the extensive metadata capabilities of formats like MP3 or AAC.
 - Not Ideal for Streaming: The large file sizes make WAV less suitable for streaming applications where bandwidth efficiency is crucial.
