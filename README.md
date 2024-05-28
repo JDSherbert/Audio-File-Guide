@@ -136,10 +136,10 @@ Here are the files I'd recommend using with each software.
 | <a href = "https://www.godot.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/godotengine"> </a>                             | .wav, .ogg, .mp3 |
 | <a href = "hhttps://www.audiokinetic.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/wwise/white"> </a>                  | .wav 24-bit PCM @ 48000Hz      |
 | RPG Maker                                                                                                                                                            | .ogg, .m4a (Mac/Safari)    |
-| Mozilla                                                                                                                                                              | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
+| <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/mozilla">                                                            | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
 | <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/googlechrome">                                                       | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
-| Edge                                                                                                                                                                 | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
-| Safari                                                                                                                                                               | .wav, .mp3, .aiff, .alac, .aac, .m4a  |
+| <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/edge">                                                               | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
+| <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/safari">                                                             | .wav, .mp3, .aiff, .alac, .aac, .m4a  |
 | Internet Explorer                                                                                                                                                    | .wav, .mp3, .wma (You'll need to use plugins for additional types)    |
 
 -----------------------------------------------------------------------
