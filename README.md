@@ -125,8 +125,9 @@ As described - the file does not support metadata for either security, size, or 
 
 -----------------------------------------------------------------------
 
-## 📝 Engines
+## 🛻 Software Audio File Requirements
 Certain game engines support certain audio file types.
+Here are the files I'd recommend using with each software.
 
 | Engine | Supported Files |
 |--------|-----------------|
