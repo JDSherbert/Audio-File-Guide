@@ -56,7 +56,8 @@ Advanced Audio Codec (AAC) is a digital audio coding standard that was designed 
 - Channels: Supports up to 48 full-bandwidth audio channels
 - Sample Rates: Supports 8 kHz to 96 kHz.
 - Bit Rates: Supports 8 kbps to 320 kbps or higher, depending on the profile and application.
-#### Profiles: AAC has several profiles tailored to different applications:
+#### Profiles: 
+AAC has several profiles tailored to different applications.
 - AAC-LC (Low Complexity): The most commonly used profile, providing a good balance between complexity and compression efficiency.
 - HE-AAC (High-Efficiency AAC): Optimized for low bit rates, often used in streaming applications.
 - HE-AACv2: An extension of HE-AAC, including Parametric Stereo (PS) for even better performance at very low bit rates.
