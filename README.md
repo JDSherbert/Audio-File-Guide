@@ -30,19 +30,19 @@ Let's dive into the details of each format, examining how they compress audio da
 ## ⚡Quick Guide
 | Type  | Size | Quality | Compression | Web | Mobile | Sample Rates (kHz)                                | Bit Rates (kbps)                         | Comments                                                                  |
 |-------|------|---------|-------------|-----|--------|---------------------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
-| .wav  | 🔟  | 🔟      | Lossless    | ✅ | ✅     | 8 - 192                                           | 1411 (CD quality), up to 4608            | Support globally. Professional recording, high-definition media, games    |
-| .mp3  | 4️⃣  | 7️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 8 - 320                                  | Support globally.                                                         |
-| .ogg  | 3️⃣  | 7️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 16 - 500                                 | Also used for game sound banks (Wwise, FMOD etc)                          |     
-| .flac | 6️⃣  | 9️⃣      | Lossless    | ✅ | ❌     | 1 - 192                                           | Up to 9216                               | Audio archiving, high-quality listening                                   |
-| .aiff | 🔟  | 🔟      | Lossless    | ❌ | ❌     | 8 - 192                                           | 1411 (CD quality), up to 4608            | Professional recording, Mac environments                                  |
 | .aac  | 4️⃣  | 8️⃣      | Lossy       | ✅ | ✅     | 8 - 96                                            | 8 - 512                                  | iTunes                                                                    |
-| .wma  | 5️⃣  | 8️⃣/🔟  | Both        | ❌ | ❌      | 8 - 48                                            | 48 - 192 (lossy), up to 1536 (lossless) | Windows                                                                   |
+| .aiff | 🔟  | 🔟      | Lossless    | ❌ | ❌     | 8 - 192                                           | 1411 (CD quality), up to 4608            | Professional recording, Mac environments                                  |
 | .alac | 6️⃣  | 9️⃣      | Lossless    | ❌ | ❌     | 1 - 384                                           | Up to 9216                               | Audio archiving, Apple devices                                            |
 | .dsd  | 🔟  | 🔟      | Lossless    | ❌ | ❌     | 2822.4 (DSD64), 5644.8 (DSD128), 11289.6 (DSD256) | 5645, 11289, 22579                       | Super Audio CDs, professional audio                                       |
+| .flac | 6️⃣  | 9️⃣      | Lossless    | ✅ | ❌     | 1 - 192                                           | Up to 9216                               | Audio archiving, high-quality listening                                   |
+| .m4a  | 5️⃣  | 8️⃣/🔟  | Both        | ✅ | ✅     | 8 - 96                                            | 8 - 512 (lossy), up to 1411 (lossless)   | iTunes, Apple Music, mobile applications                                  |
 | .mp2  | 3️⃣  | 6️⃣      | Lossy       | ❌ | ❌     | 16 - 48                                           | 32 - 384                                 | Broadcasting                                                              |
+| .mp3  | 4️⃣  | 7️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 8 - 320                                  | Support globally.                                                         |
+| .ogg  | 3️⃣  | 7️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 16 - 500                                 | Also used for game sound banks (Wwise, FMOD etc)                          |
 | .opus | 2️⃣  | 8️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 6 - 510                                  | Not widely used. Streaming, voice over IP                                 |
-| .m4a  | 5️⃣  | 8️⃣/🔟  | Both        | ✅ | ✅      | 8 - 96                                            | 8 - 512 (lossy), up to 1411 (lossless)  | iTunes, Apple Music, mobile applications                                  |
-| .midi | 1️⃣  | 5️⃣      | 🚫         | ✅ | ❌      | 🚫                                               | 🚫                                      | Music production, electronic instruments                                  |
+| .wav  | 🔟  | 🔟      | Lossless    | ✅ | ✅     | 8 - 192                                           | 1411 (CD quality), up to 4608            | Support globally. Professional recording, high-definition media, games    |
+| .wma  | 5️⃣  | 8️⃣/🔟  | Both        | ❌ | ❌     | 8 - 48                                            | 48 - 192 (lossy), up to 1536 (lossless)  | Windows                                                                   |
+| .midi | 1️⃣  | 5️⃣      | 🚫         | ✅ | ❌     | 🚫                                                | 🚫                                      | Music production, electronic instruments                                  |
 
 ## 📂 File Types
 
