@@ -28,31 +28,33 @@ Let's dive into the details of each format, examining how they compress audio da
 -----------------------------------------------------------------------
 
 ## ⚡Quick Guide
-| Type  | Size | Quality | Compression | Common Uses                                   | Sample Rates (kHz)       | Bit Rates (kbps)          |
-|-------|------|---------|-------------|-----------------------------------------------|--------------------------|---------------------------|
-| .wav  | 🔟  | 🔟      | Lossless    | Professional recording, high-definition media | 8 - 192                  | 1411 (CD quality), up to 4608 |
-| .mp3  | 4️⃣  | 7️⃣      | Lossy       | Web, mobile applications                      | 8 - 48                   | 8 - 320                   |
-| .ogg  | 3️⃣  | 7️⃣      | Lossy       | Web, mobile, game sound banks                 | 8 - 48                   | 16 - 500                  |
-| .flac | 6️⃣  | 9️⃣      | Lossless    | Audio archiving, high-quality listening       | 1 - 192                  | Up to 9216                |
-| .aiff | 🔟  | 🔟      | Lossless    | Professional recording, Mac environments      | 8 - 192                  | 1411 (CD quality), up to 4608 |
-| .aac  | 4️⃣  | 8️⃣      | Lossy       | Web, mobile applications, iTunes              | 8 - 96                   | 8 - 512                   |
-| .wma  | 5️⃣  | 8️⃣/🔟  | Both        | Web, mobile applications, Windows             | 8 - 48                   | 48 - 192 (lossy), up to 1536 (lossless) |
-| .alac | 6️⃣  | 9️⃣      | Lossless    | Audio archiving, Apple devices                | 1 - 384                  | Up to 9216                |
-| .dsd  | 🔟  | 🔟      | Lossless    | Super Audio CDs, professional audio           | 2822.4 (DSD64), 5644.8 (DSD128), 11289.6 (DSD256) | 5645, 11289, 22579       |
-| .mp2  | 3️⃣  | 6️⃣      | Lossy       | Broadcasting                                  | 16 - 48                  | 32 - 384                  |
-| .opus | 2️⃣  | 8️⃣      | Lossy       | Streaming, voice over IP                      | 8 - 48                   | 6 - 510                   |
-| .m4a  | 5️⃣  | 8️⃣/🔟  | Both        | iTunes, Apple Music, mobile applications      | 8 - 96                   | 8 - 512 (lossy), up to 1411 (lossless)    |
-| .midi | 1️⃣  | 5️⃣      | None        | Music production, electronic instruments      | N/A                      | N/A                       |
+| Type  | Size | Quality | Compression | Web | Mobile | Sample Rates (kHz)                                | Bit Rates (kbps)                         | Comments                                         |
+|-------|------|---------|-------------|--------------|---------------------------------------------------|------------------------------------------|--------------------------------------------------|
+| .wav  | 🔟  | 🔟      | Lossless    | ✅ | ✅     | 8 - 192                                           | 1411 (CD quality), up to 4608            | Professional recording, high-definition media    |
+| .mp3  | 4️⃣  | 7️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 8 - 320                                  |                                                  |
+| .ogg  | 3️⃣  | 7️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 16 - 500                                 | Also used for game sound banks (Wwise, FMOD etc) |         |
+| .flac | 6️⃣  | 9️⃣      | Lossless    | ✅ | ❌     | 1 - 192                                           | Up to 9216                               | Audio archiving, high-quality listening          |
+| .aiff | 🔟  | 🔟      | Lossless    | ❌ | ❌     | 8 - 192                                           | 1411 (CD quality), up to 4608            | Professional recording, Mac environments         |
+| .aac  | 4️⃣  | 8️⃣      | Lossy       | ✅ | ✅     | 8 - 96                                            | 8 - 512                                  | iTunes                                           |
+| .wma  | 5️⃣  | 8️⃣/🔟  | Both        | ❌ | ❌      | 8 - 48                                            | 48 - 192 (lossy), up to 1536 (lossless) | Windows                                          |
+| .alac | 6️⃣  | 9️⃣      | Lossless    | ❌ | ❌     | 1 - 384                                           | Up to 9216                               | Audio archiving, Apple devices                   |
+| .dsd  | 🔟  | 🔟      | Lossless    | ❌ | ❌     | 2822.4 (DSD64), 5644.8 (DSD128), 11289.6 (DSD256) | 5645, 11289, 22579                       | Super Audio CDs, professional audio              |
+| .mp2  | 3️⃣  | 6️⃣      | Lossy       | ❌ | ❌     | 16 - 48                                           | 32 - 384                                 | Broadcasting                                     |
+| .opus | 2️⃣  | 8️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 6 - 510                                  | Streaming, voice over IP                         |
+| .m4a  | 5️⃣  | 8️⃣/🔟  | Both        | ✅ | ✅      | 8 - 96                                            | 8 - 512 (lossy), up to 1411 (lossless)  | iTunes, Apple Music, mobile applications         |
+| .midi | 1️⃣  | 5️⃣      | 🚫         | ✅ | ❌      | 🚫                                               | 🚫                                      | Music production, electronic instruments         |
 
 ## 📂 File Types
 
 ### .wav
 Large, uncompressed, and capable of higher comparable quality. It is made by sampling the audio into a waveform – as such, it is compatible with most digital software and is widely used for high-definition media. It’s a lossless codec, which means that it is stored via an algorithm that allows the original audio data to be perfectly reconstructed from the compressed data.
 - Metadata Support: Yes, supports INFO chunks but limited compared to more modern formats.
+- Supported Platforms: All
 
 ### .mp3
 This file type is smaller than .wav and is capable of good comparable quality. It is made by sampling the audio into layers – it is compatible with most digital software and is more appropriate for web and mobile applications. It is very lossy, however.
-- Yes, supports ID3 tags.
+- Metadata Support: Yes, supports Extensive Metadata ID tags.
+- Supported Platforms: All
 
 ### .ogg
 This file type is even smaller comparatively than a .mp3 and the quality difference is negligible. It is made by sampling the audio into layers but also ignores “silence” in the sample, greatly reducing the size and processing cost. Although it is lossy and becoming slightly obsolete/less compatible for most media, it is compatible with most digital software and is widely used in web and mobile, as well as for generating sound banks for large-scale AAA game projects.
@@ -119,10 +121,6 @@ User-Defined Tags: Custom tags defined by the user.
 
 - #### ⚠️ Limited or No Metadata Support
 As described - the file does not support metadata for either security, size, or legacy restrictions.
-
------------------------------------------------------------------------
-
-
 
 
 -----------------------------------------------------------------------
