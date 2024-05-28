@@ -40,7 +40,7 @@ Let's dive into the details of each format, examining how they compress audio da
 | .opus | 2️⃣  | 8️⃣      | Lossy       | ✅ | ✅     | 8 - 48                                            | 6 - 510                                  | Not widely used. Streaming, voice over IP                                 |
 | .wav  | 🔟  | 🔟      | Lossless    | ✅ | ✅     | 8 - 192                                           | 1411 (CD quality), up to 4608            | Support globally. Professional recording, high-definition media, games    |
 | .wma  | 5️⃣  | 8️⃣/🔟  | Both        | ❌ | ❌     | 8 - 48                                            | 48 - 192 (lossy), up to 1536 (lossless)  | Windows                                                                   |
-| .midi | 1️⃣  | 5️⃣      | 🚫         | ✅ | ❌     | 🚫                                                | 🚫                                      | Does not store audio data. Contains hardware instructions for music production |
+| .midi | 1️⃣  | 🚫      | 🚫         | ✅ | ❌     | 🚫                                                | 🚫                                      | Does not store audio data. Contains hardware instructions for music production |
 
 ## 📂 File Types
 
