@@ -125,7 +125,7 @@ As described - the file does not support metadata for either security, size, or 
 
 -----------------------------------------------------------------------
 
-## 📝 Game Engines
+## 📝 Engines
 Certain game engines support certain audio file types.
 
 | Engine | Supported Files |
@@ -133,5 +133,6 @@ Certain game engines support certain audio file types.
 | <a href = "https://docs.unrealengine.com/5.1/en-US/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/unrealengine/white"> </a> | .wav 16-bit PCM @ 44100Hz |
 | <a href = "https://docs.unity.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/unity/white"> </a> | .wav, .ogg, .mp3 |
 | <a href = "https://www.godot.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/godotengine"> </a> | .wav, .ogg, .mp3 |
+| <a href = "hhttps://www.audiokinetic.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/wwise/white"> </a> | .wav 24-bit PCM @ 48000Hz      |
 
 -----------------------------------------------------------------------
