@@ -138,7 +138,7 @@ Here are the files I'd recommend using with each software.
 | RPG Maker                                                                                                                                                            | .ogg, .m4a (Mac/Safari)    |
 | <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/firefoxbrowser">                                                     | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
 | <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/googlechrome">                                                       | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
-| <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/edge">                                                               | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
+| <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/microsoftedge">                                                      | .wav, .mp3, .ogg, .flac, .aac, .opus, .m4a, .midi   |
 | <a href = ""> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/safari">                                                             | .wav, .mp3, .aiff, .alac, .aac, .m4a  |
 | Internet Explorer                                                                                                                                                    | .wav, .mp3, .wma (You'll need to use plugins for additional types)    |
 
