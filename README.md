@@ -46,10 +46,26 @@ Let's dive into the details of each format, examining how they compress audio da
 
 ## 📂 File Types
 
-### .wav
-Large, uncompressed, and capable of higher comparable quality. It is made by sampling the audio into a waveform – as such, it is compatible with most digital software and is widely used for high-definition media. It’s a lossless codec, which means that it is stored via an algorithm that allows the original audio data to be perfectly reconstructed from the compressed data.
-- Metadata Support: Yes, supports INFO chunks but limited compared to more modern formats.
-- Supported Platforms: All
+### .aac
+Advanced Audio Coding offers better sound quality than MP3 at similar bit rates. It is the default format for iTunes and Apple Music. AAC files support metadata and are widely used in web and mobile applications.
+
+### .aiff
+Similar to .wav in size and quality, AIFF is a lossless format developed by Apple. It is commonly used in Mac environments for professional audio applications. It supports a wide range of sample rates and bit rates and includes metadata support.
+
+### .alac
+Apple Lossless Audio Codec is similar to FLAC but designed for use with Apple products. It provides high-quality audio without the loss associated with lossy formats, supports metadata, and is used for audio archiving and high-quality listening.
+
+### .dsd
+Direct Stream Digital is used in Super Audio CDs (SACDs) and provides extremely high-quality audio but results in very large file sizes. It supports high sample rates and bit rates, making it ideal for professional audio applications.
+
+### .flac
+This file type is smaller than .wav and is capable of high comparable quality. It is made by sampling the audio into layers. It’s a lossless codec with an open license, compatible with most digital software but is not as widely used outside of the audio industry.
+
+### .m4a
+M4A (MPEG-4 Audio) is a file format used primarily by Apple devices and applications. It can contain audio encoded with either the lossy AAC (Advanced Audio Coding) codec or the lossless ALAC (Apple Lossless Audio Codec). This format is widely used for distributing music via iTunes and Apple Music. M4A files support a range of sample rates and bit rates, and they include metadata support, making them suitable for high-quality audio playback and efficient storage.
+
+### .mp2
+MPEG Layer II is mainly used for broadcasting due to its robustness and good audio quality at lower bit rates. It supports metadata and a range of sample rates and bit rates, though it is less common today.
 
 ### .mp3
 This file type is smaller than .wav and is capable of good comparable quality. It is made by sampling the audio into layers – it is compatible with most digital software and is more appropriate for web and mobile applications. It is very lossy, however.
@@ -59,32 +75,16 @@ This file type is smaller than .wav and is capable of good comparable quality. I
 ### .ogg
 This file type is even smaller comparatively than a .mp3 and the quality difference is negligible. It is made by sampling the audio into layers but also ignores “silence” in the sample, greatly reducing the size and processing cost. Although it is lossy and becoming slightly obsolete/less compatible for most media, it is compatible with most digital software and is widely used in web and mobile, as well as for generating sound banks for large-scale AAA game projects.
 
-### .flac
-This file type is smaller than .wav and is capable of high comparable quality. It is made by sampling the audio into layers. It’s a lossless codec with an open license, compatible with most digital software but is not as widely used outside of the audio industry.
-
-### .aiff
-Similar to .wav in size and quality, AIFF is a lossless format developed by Apple. It is commonly used in Mac environments for professional audio applications. It supports a wide range of sample rates and bit rates and includes metadata support.
-
-### .aac
-Advanced Audio Coding offers better sound quality than MP3 at similar bit rates. It is the default format for iTunes and Apple Music. AAC files support metadata and are widely used in web and mobile applications.
-
-### .wma
-Windows Media Audio, developed by Microsoft, comes in both lossy and lossless versions. It supports metadata and a wide range of sample and bit rates. While less popular today, it was widely used for streaming and downloading music.
-
-### .alac
-Apple Lossless Audio Codec is similar to FLAC but designed for use with Apple products. It provides high-quality audio without the loss associated with lossy formats, supports metadata, and is used for audio archiving and high-quality listening.
-
-### .dsd
-Direct Stream Digital is used in Super Audio CDs (SACDs) and provides extremely high-quality audio but results in very large file sizes. It supports high sample rates and bit rates, making it ideal for professional audio applications.
-
-### .mp2
-MPEG Layer II is mainly used for broadcasting due to its robustness and good audio quality at lower bit rates. It supports metadata and a range of sample rates and bit rates, though it is less common today.
-
 ### .opus
 Opus is a highly versatile and efficient lossy audio codec designed for streaming and real-time applications such as voice over IP. It offers high audio quality at low bit rates, making it ideal for bandwidth-sensitive uses. Opus supports a wide range of sample rates and bit rates, providing good quality even at lower file sizes. It also includes extensive metadata support, making it a robust choice for various audio applications.
 
-### .m4a
-M4A (MPEG-4 Audio) is a file format used primarily by Apple devices and applications. It can contain audio encoded with either the lossy AAC (Advanced Audio Coding) codec or the lossless ALAC (Apple Lossless Audio Codec). This format is widely used for distributing music via iTunes and Apple Music. M4A files support a range of sample rates and bit rates, and they include metadata support, making them suitable for high-quality audio playback and efficient storage.
+### .wav
+Large, uncompressed, and capable of higher comparable quality. It is made by sampling the audio into a waveform – as such, it is compatible with most digital software and is widely used for high-definition media. It’s a lossless codec, which means that it is stored via an algorithm that allows the original audio data to be perfectly reconstructed from the compressed data.
+- Metadata Support: Yes, supports INFO chunks but limited compared to more modern formats.
+- Supported Platforms: All
+
+### .wma
+Windows Media Audio, developed by Microsoft, comes in both lossy and lossless versions. It supports metadata and a wide range of sample and bit rates. While less popular today, it was widely used for streaming and downloading music.
 
 ### .midi
 MIDI (Musical Instrument Digital Interface) files are unique in that they do not contain actual audio data but instead store a set of instructions for synthesizers to generate sounds. This makes MIDI files extremely small in size. They are widely used in music production and for controlling electronic musical instruments. MIDI files support metadata, including information such as tempo, instrument data, and control signals, but do not have traditional sample rates or bit rates as found in audio files.
