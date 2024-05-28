@@ -15,7 +15,6 @@
 
 <a href=""> 
   <img align="left" alt="Audio Processing" src="https://img.shields.io/badge/Audio%20Processing-black?style=for-the-badge&logo=audacity&logoColor=white&color=black&labelColor=black"> </a>
-  
 <br></br>
 
 -----------------------------------------------------------------------
