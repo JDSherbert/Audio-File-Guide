@@ -41,6 +41,7 @@ Let's dive into the details of each format, examining how they compress audio da
 | .wav  | 🔟  | 🔟      | Lossless    | ✅ | ✅     | 8 - 192                                           | 1411 (CD quality), up to 4608            | Support globally. Professional recording, high-definition media, games    |
 | .wma  | 5️⃣  | 8️⃣/🔟  | Both        | ❌ | ❌     | 8 - 48                                            | 48 - 192 (lossy), up to 1536 (lossless)  | Windows                                                                   |
 
+| Type  | Size | Quality | Compression | Web | Mobile | Sample Rates (kHz)                                | Bit Rates (kbps)                         | Comments                                                                  |
 |-------|------|---------|-------------|-----|--------|---------------------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
 | .midi | 1️⃣  | 5️⃣      | 🚫         | ✅ | ❌     | 🚫                                                | 🚫                                      | Music production, electronic instruments                                  |
 
