@@ -19,7 +19,7 @@
 
 -----------------------------------------------------------------------
 ## Overview
-As an audio engineer, understanding the various audio file formats is crucial to ensuring the best quality and compatibility for your projects. Audio file types differ not only in their quality and file size but also in their suitability for different applications, from casual listening to professional recording, production, transporting, editing, and "lossy-ness". I'll be approaching each file format from a Games Industry perspective and discussing their unique characteristics, advantages, and potential drawbacks. Whether you're mastering tracks in a studio, encoding audio for streaming, or archiving a music collection, selecting the right file format can make a significant difference in your workflow and the listening experience. 
+As an audio engineer, understanding the various audio file formats is crucial to ensuring the best quality and compatibility for your projects. Audio file types differ not only in their quality and file size but also in their suitability for different applications, from casual listening to professional recording, production, transporting, editing, and reliability. I'll be approaching each file format from a professional perspective and discussing their unique characteristics, advantages, and potential drawbacks. Whether you're mastering tracks in a studio, encoding audio for streaming, or archiving a music collection, selecting the right file format can make a significant difference in your workflow and the listening experience. 
 
 Let's dive into the details of each format, examining how they compress audio data, the quality they offer, and their typical use cases in the audio industry.
 
