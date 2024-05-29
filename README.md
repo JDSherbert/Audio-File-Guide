@@ -42,6 +42,8 @@ Let's dive into the details of each format, examining how they compress audio da
 | [.wma](https://github.com/JDSherbert/Audio-File-Guide/blob/main/README.md#wma)  | 5️⃣  | 8️⃣/🔟  | Both        | ❌ | ❌     | 8 - 48                                            | 48 - 192 (lossy), up to 1536 (lossless)  | Windows                                                                   |
 | [.midi](https://github.com/JDSherbert/Audio-File-Guide/blob/main/README.md#midi) | 1️⃣  | 🚫      | 🚫         | ✅ | ❌     | 🚫                                                | 🚫                                      | Does not store audio data. Contains hardware instructions for music production |
 
+-----------------------------------------------------------------------
+
 ## 📂 File Types
 
 ### .aac
@@ -74,6 +76,8 @@ AAC has several profiles tailored to different applications.
 #### 📉 Disadvantages
 - Licensing Fees: Unlike some open-source codecs, AAC is patented, and using it in commercial products may require licensing fees.
 - Compatibility Issues with Older Devices: Some older hardware and software may not fully support AAC, particularly more advanced profiles like HE-AAC and HE-AACv2.
+
+---------------------------------------------------------
 
 ### .aiff
 Similar to .wav in size and quality, AIFF is a lossless format developed by Apple. It is commonly used in Mac environments for professional audio applications. It supports a wide range of sample rates and bit rates and includes metadata support.
