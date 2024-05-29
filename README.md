@@ -77,22 +77,32 @@ AAC has several profiles tailored to different applications.
 - Licensing Fees: Unlike some open-source codecs, AAC is patented, and using it in commercial products may require licensing fees.
 - Compatibility Issues with Older Devices: Some older hardware and software may not fully support AAC, particularly more advanced profiles like HE-AAC and HE-AACv2.
 
------
+-----------------------------------------------------------------------
 
 ### .aiff
 Similar to .wav in size and quality, AIFF is a lossless format developed by Apple. It is commonly used in Mac environments for professional audio applications. It supports a wide range of sample rates and bit rates and includes metadata support.
 
+-----------------------------------------------------------------------
+
 ### .alac
 Apple Lossless Audio Codec is similar to FLAC but designed for use with Apple products. It provides high-quality audio without the loss associated with lossy formats, supports metadata, and is used for audio archiving and high-quality listening.
+
+-----------------------------------------------------------------------
 
 ### .dsd
 Direct Stream Digital is used in Super Audio CDs (SACDs) and provides extremely high-quality audio but results in very large file sizes. It supports high sample rates and bit rates, making it ideal for professional audio applications.
 
+-----------------------------------------------------------------------
+
 ### .flac
 This file type is smaller than .wav and is capable of high comparable quality. It is made by sampling the audio into layers. It’s a lossless codec with an open license, compatible with most digital software but is not as widely used outside of the audio industry.
 
+-----------------------------------------------------------------------
+
 ### .m4a
 M4A (MPEG-4 Audio) is a file format used primarily by Apple devices and applications. It can contain audio encoded with either the lossy AAC (Advanced Audio Coding) codec or the lossless ALAC (Apple Lossless Audio Codec). This format is widely used for distributing music via iTunes and Apple Music. M4A files support a range of sample rates and bit rates, and they include metadata support, making them suitable for high-quality audio playback and efficient storage.
+
+-----------------------------------------------------------------------
 
 ### .mp2
 MPEG-1 Audio Layer II (MP2) is a digital audio coding format that predates the more widely known MP3 format. Developed as part of the MPEG-1 standard by the Moving Picture Experts Group (MPEG), MP2 was initially designed for use in digital television broadcasting and digital radio. Although it has been largely superseded by more advanced codecs like MP3 and AAC in many applications, MP2 remains in use in specific broadcasting contexts due to its robustness and error resilience.
@@ -118,16 +128,24 @@ MPEG-1 Audio Layer II (MP2) is a digital audio coding format that predates the m
 - Limited Metadata Support: MP2's metadata capabilities are limited compared to newer formats, which can affect file organization and user experience.
 - Obsolescence in Consumer Applications: With the advent of more efficient codecs like MP3 and AAC, MP2 has become less common in consumer applications and devices.
 
+-----------------------------------------------------------------------
+
 ### .mp3
 This file type is smaller than .wav and is capable of good comparable quality. It is made by sampling the audio into layers – it is compatible with most digital software and is more appropriate for web and mobile applications. It is very lossy, however.
 - Metadata Support: Yes, supports Extensive Metadata ID tags.
 - Supported Platforms: All
 
+-----------------------------------------------------------------------
+
 ### .ogg
 This file type is even smaller comparatively than a .mp3 and the quality difference is negligible. It is made by sampling the audio into layers but also ignores “silence” in the sample, greatly reducing the size and processing cost. Although it is lossy and becoming slightly obsolete/less compatible for most media, it is compatible with most digital software and is widely used in web and mobile, as well as for generating sound banks for large-scale AAA game projects.
 
+-----------------------------------------------------------------------
+
 ### .opus
 Opus is a highly versatile and efficient lossy audio codec designed for streaming and real-time applications such as voice over IP. It offers high audio quality at low bit rates, making it ideal for bandwidth-sensitive uses. Opus supports a wide range of sample rates and bit rates, providing good quality even at lower file sizes. It also includes extensive metadata support, making it a robust choice for various audio applications.
+
+-----------------------------------------------------------------------
 
 ### .wav
 Waveform Audio File Format (WAV), developed by Microsoft and IBM, is one of the oldest and most widely used audio file formats. Introduced in 1991 as a part of the Resource Interchange File Format (RIFF), WAV files are used for storing uncompressed, high-quality audio data. Because WAV files are typically uncompressed, they offer superior audio quality but come with larger file sizes. They are commonly used in professional audio recording, editing, and archival.
@@ -154,12 +172,15 @@ Waveform Audio File Format (WAV), developed by Microsoft and IBM, is one of the 
 - Limited Metadata Support: While WAV files support basic metadata, they lack the extensive metadata capabilities of formats like MP3 or AAC.
 - Not Ideal for Streaming: The large file sizes make WAV less suitable for streaming applications where bandwidth efficiency is crucial.
 
+-----------------------------------------------------------------------
+
 ### .wma
 Windows Media Audio, developed by Microsoft, comes in both lossy and lossless versions. It supports metadata and a wide range of sample and bit rates. While less popular today, it was widely used for streaming and downloading music.
 
+-----------------------------------------------------------------------
+
 ### .midi
 MIDI (Musical Instrument Digital Interface) files are unique in that they do not contain actual audio data but instead store a set of instructions for synthesizers to generate sounds. This makes MIDI files extremely small in size. They are widely used in music production and for controlling electronic musical instruments. MIDI files support metadata, including information such as tempo, instrument data, and control signals, but do not have traditional sample rates or bit rates as found in audio files.
-
 
 -----------------------------------------------------------------------
 
