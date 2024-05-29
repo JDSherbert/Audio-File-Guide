@@ -77,7 +77,7 @@ AAC has several profiles tailored to different applications.
 - Licensing Fees: Unlike some open-source codecs, AAC is patented, and using it in commercial products may require licensing fees.
 - Compatibility Issues with Older Devices: Some older hardware and software may not fully support AAC, particularly more advanced profiles like HE-AAC and HE-AACv2.
 
--------------------------
+---------
 
 ### .aiff
 Similar to .wav in size and quality, AIFF is a lossless format developed by Apple. It is commonly used in Mac environments for professional audio applications. It supports a wide range of sample rates and bit rates and includes metadata support.
