@@ -358,7 +358,7 @@ It's designed for streaming and real-time applications such as voice over IP, as
 -----------------------------------------------------------------------
 
 ### .wav
-Waveform Audio File Format (WAV), developed by Microsoft and IBM, is one of the oldest and most widely used audio file formats. Introduced in 1991 as a part of the Resource Interchange File Format (RIFF), WAV files are used for storing uncompressed, high-quality audio data. Because WAV files are typically uncompressed, they offer superior audio quality but come with larger file sizes. They are commonly used in professional audio recording, editing, and archival.
+Waveform Audio File Format (WAV), developed by Microsoft and IBM, is one of the oldest and most widely used audio file formats. Introduced in 1991 as a part of the Resource Interchange File Format (RIFF), WAV files are used for storing uncompressed, high-quality audio data. They are commonly used in professional audio recording, editing, and archival.
 
 #### 🔑 Key Features
 - Uncompressed Audio: WAV files usually store audio in an uncompressed format, which means they retain the full fidelity of the original recording.
